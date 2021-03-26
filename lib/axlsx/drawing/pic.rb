@@ -73,7 +73,6 @@ module Axlsx
 
     def image_src=(v)
       Axlsx::validate_string(v)
-      RestrictionValidator.validate 'Pic.image_src', ALLOWED_MIME_TYPES, MimeTypeUtils.get_mime_type(v)
       raise ArgumentError, "File does not exist" unless File.exist?(v)
       @image_src = v
     end
