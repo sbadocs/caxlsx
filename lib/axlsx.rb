@@ -8,7 +8,6 @@ require 'axlsx/util/validators.rb'
 require 'axlsx/util/accessors.rb'
 require 'axlsx/util/serialized_attributes'
 require 'axlsx/util/options_parser'
-require 'axlsx/util/mime_type_utils'
 require 'axlsx/util/zip_command'
 
 require 'axlsx/stylesheet/styles.rb'
